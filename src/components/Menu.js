@@ -1,10 +1,10 @@
 import MenuList from "./MenuList";
 
-function Menu() {
+function Menu({ addOrder }) {
   return (
     <div className="card mt-5">
       <h1>Menu</h1>
-      <MenuList />
+      <MenuList addOrder={addOrder} />
     </div>
   );
 }
