@@ -2,13 +2,13 @@ function MenuItem({ item, addOrder }) {
   const addOrderToCart = () => {
     console.log(item);
 
-    const newOrder = {
-      id,
-      name,
-      price,
-    };
+    // const newOrder = {
+    //   id,
+    //   name,
+    //   price,
+    // };
 
-    addOrder(newOrder);
+    // addOrder(newOrder);
   };
 
   return (

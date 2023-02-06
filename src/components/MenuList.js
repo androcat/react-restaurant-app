@@ -44,11 +44,11 @@ const INITIAL_DATA = [
   },
 ];
 
-function MenuList({ addOrder }) {
+function MenuList({ setOrders }) {
   const [menuItems] = useState(INITIAL_DATA);
 
   const menuItemsHTML = menuItems.map((item) => (
-    <MenuItem key={item.id} item={item} addOrder={addOrder} />
+    <MenuItem key={item.id} item={item} setOrders={setOrders} />
   ));
 
   return <ul>{menuItemsHTML}</ul>;

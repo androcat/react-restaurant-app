@@ -6,13 +6,14 @@ import Order from "./components/Order";
 function App() {
   const [orders, setOrders] = useState([]);
 
-  const addOrder = (order) = {
-    setOrders([...orders, order]);
-  }
+  // const addOrder = (order = {
+  //   setOrders([...orders, order]);
+  // });
 
   return (
     <div className="container">
-      <Menu addOrder={addOrder} />
+      {/* <Menu addOrder={addOrder} /> */}
+      <Menu />
       <Order orders={orders} />
     </div>
   );
