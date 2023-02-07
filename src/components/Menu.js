@@ -1,4 +1,5 @@
 import MenuList from "./MenuList";
+import { nanoid } from "nanoid";
 
 function Menu({ addOrderToCart, INITIAL_DATA }) {
   return (
